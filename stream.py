@@ -18,6 +18,7 @@ while True:
         "ffmpeg", "-re",
         "-f", "concat",
         "-safe", "0",
+        "-protocol_whitelist", "file,https,tcp,tls",
         "-stream_loop", "-1",
         "-i", "playlist.txt",
         "-c", "copy",
