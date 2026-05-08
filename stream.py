@@ -13,7 +13,7 @@ with open("playlist.txt", "w") as f:
 while True:
     cmd = [
         "ffmpeg", "-re", "-stream_loop", "-1", "-f", "concat",
-        "-i", "playlist.txt",
+        "-safe", "0", "-i", "playlist.txt",
         "-vf", "scale=1280:-2",
         "-c:v", "libx264", "-preset", "superfast",
         "-b:v", "2000k", "-maxrate", "2000k", "-bufsize", "4000k",
