@@ -1,4 +1,4 @@
-import subprocess, time, os
+import subprocess, time
 
 STREAM_KEY = "1dr5-f1jq-bspa-qbee-2yda"
 VIDEO_LIST = [
@@ -10,10 +10,6 @@ VIDEO_LIST = [
 with open("playlist.txt", "w") as f:
     for url in VIDEO_LIST:
         f.write(f"file '{url}'\n")
-
-# Verify playlist was created
-if not os.path.exists("playlist.txt"):
-    raise FileNotFoundError("playlist.txt not created")
 
 # Start infinite loop stream
 while True:
