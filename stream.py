@@ -2,8 +2,8 @@ import subprocess, time
 
 STREAM_KEY = "1dr5-f1jq-bspa-qbee-2yda"  # <-- PUT YOUR REAL STREAM KEY HERE
 VIDEO_LIST = [
-    "https://youtu.be/RlFBKJFCzO4?si=xYgGDNpoopNP46oZ",
-    "https://youtu.be/8n3BBc-_ygA?si=tZ2fqAY1g_CrYF8C"
+    "https://github.com/CentralBureauFundCBFNigeriaGrant/marveltube-stream/releases/latest/download/I.Tried.Cooking.For.My.Wife.in.10.Minutes.I.FAILED.720p._1778229740240.mp4",
+    "https://github.com/CentralBureauFundCBFNigeriaGrant/marveltube-stream/releases/latest/download/Does.Your.Background.Really.Matter.To.Go.Viral.on.YouTube._.A.MUST.WATCH.FOR.NEW.CREATORS.1080p._1778228673635.mp4"
 ]
 
 # Write playlist
